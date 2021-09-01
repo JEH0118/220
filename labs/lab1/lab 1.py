@@ -8,8 +8,8 @@ def test():
     print("The time has come, the Walrus said, To talk of many thing")
 
 def calc_area():
-    length = 20
-    width = 5
+    length = eval(input("Enter the length: "))
+    width = eval(input("Enter the width: "))
     area = length * width
     print("Area =", area)
 
