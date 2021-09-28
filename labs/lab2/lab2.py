@@ -9,7 +9,6 @@ Problem: math issues solved in python
 def sum_of_threes():
     sum = eval(input("What is  your upper bound number?:"))
     output = 0
-
     for i in range(3, sum + 1, 3):
         output = output + i
     print(output)
